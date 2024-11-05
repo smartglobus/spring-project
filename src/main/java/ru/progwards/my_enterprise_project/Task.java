@@ -18,4 +18,60 @@ public class Task {
     private List<Task> subtask;
     private List<Task> relatedTask;
 
+
+    //getters
+    public String getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public TaskType getType() {
+        return type;
+    }
+
+    public PriorityType getPriority() {
+        return priority;
+    }
+
+    public List<Attachment> getAttachments() {
+        return attachments;
+    }
+
+    public User getAuthor() {
+        return author;
+    }
+
+    public User getExecutor() {
+        return executor;
+    }
+
+    public LocalDate getCreated() {
+        return created;
+    }
+
+    public LocalDate getUpdated() {
+        return updated;
+    }
+
+    public int getStoryPoint() {
+        return storyPoint;
+    }
+
+    public List<Task> getSubtask() {
+        return subtask;
+    }
+
+    public List<Task> getRelatedTask() {
+        return relatedTask;
+    }
+
+    //setters
+
 }
